@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/LeetCodePremium/DesignHitCounter.js"
+            "program": "${workspaceFolder}/StrobogrammaticNumber.js"
         }
     ]
 }
