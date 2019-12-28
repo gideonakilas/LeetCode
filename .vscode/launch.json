@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/StrobogrammaticNumber.js"
+            "program": "${workspaceFolder}/BackspaceStringCompare.js"
         }
     ]
 }
