@@ -15,10 +15,8 @@ var levelOrder = function(root) {
     function dive(node, depth){
         if(!node) return;
         
-        if(!levels[depth]){
-            levels[depth] = [];
-        }
-        console.log(depth, node.val)
+        if(!levels[depth]) levels[depth] = [];
+        
         levels[depth].push(node.val);
         
         dive(node.left, depth+1)
